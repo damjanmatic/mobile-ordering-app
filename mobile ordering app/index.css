@@ -1,0 +1,241 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 600px;
+    height: 167px;
+    margin: 0 auto;
+    background: rgb(255, 138, 35, 0.4);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-image: url(./ferks-guare-KEZdWfYD-ow-unsplash1.png);
+    border-left: 4px solid gray;
+    border-right: 4px solid gray;
+    border-top: 4px solid gray;
+}
+
+.headertitle,
+.header__subtitle {
+    color: whitesmoke;
+    margin-bottom: 0;
+}
+
+.header__title {
+    padding-top: 1.5em;
+    padding-left: 1em;
+}
+
+.header__subtitle {
+    padding-left: 2em;
+}
+
+main {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.item {
+    display: grid;
+    width: 540px;
+    border-bottom: 1px solid lightgray;
+    margin: 0 auto;
+    grid-template-columns: 1fr 6fr 1fr;
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.item-graphic {
+    align-self: center;
+    font-size: 5rem;
+}
+
+.item-text-holder {
+    align-self: center;
+}
+
+.item-subtitle {
+    margin-bottom: .75em;
+    margin-top: .25em;
+}
+
+.item-btn {
+    border-radius: 100%;
+    border: 1px solid gainsboro;
+    background: 0;
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.order-section {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.order-section h3.item-title {
+    text-align: center;
+}
+
+.content-wrapper {
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.style-holder {
+    display: flex;
+    align-self: center;
+}
+
+.remove {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 1em;
+    text-align: center;
+}
+
+.total {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    padding-top: .5em;
+}
+
+.confirm-Btn {
+    width: 150px;
+    height: 28px;
+    justify-content: center;
+    line-height: 1.7;
+    background: #b45211;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 3em;
+    box-shadow: 1px 1px 3px black;
+    transition: transform .3s ease-in;
+}
+
+.confirm-Btn:focus,
+.confirm-Btn:hover {
+    transform: scale(1.05);
+}
+
+.confirm-Btn:focus {
+    border: 1px solid #b45211;
+}
+
+.active {
+    display: grid !important;
+}
+
+.inactive {
+    display: none;
+}
+
+.modal {
+    width: 340px;
+    height: 400px;
+    margin: 0 auto;
+    background: #fcfcfc;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    box-shadow: 2px 3px 18px black;
+}
+
+.modalStyle {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: auto auto;
+}
+
+input {
+    padding: .25em;
+    margin-bottom: 1em;
+    border-radius: 3px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.modal-sum {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.submit {
+    width: 100%;
+    margin: 0.5em auto;
+    height: 2.5rem;
+    cursor: pointer;
+    background: #b45211;
+    color: #fcfcfc;
+    border: 0;
+    box-shadow: 1px 1px 3px black;
+    transition: transform .3s ease-in;
+}
+
+.submit:focus,
+.submit:hover {
+    transform: scale(1.05);
+}
+
+.submit+.submit {
+    margin-top: 0em;
+}
+
+.container-wrapper h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 0.25em;
+    margin-bottom: 1em;
+}
+
+.container-wrapper {
+    margin-bottom: 1em;
+}
+
+.container {
+    border-left: 4px solid lightgray;
+    border-right: 4px solid lightgray;
+    border-bottom: 4px solid lightgray;
+    width: 600px;
+    margin: 0 auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.modal-title {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.background-title {
+    height: 60px;
+    background: rgba(180, 82, 17, 0.2);
+    width: 90%;
+    margin: 0 auto;
+}
